@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="container">
+            <h1>Kindly share us your feedback</h1>
+            <p>Your feedback is very important to us</p>
+            <div class="emoji-box">
+                <button class="btn normal">&#128578;</button>
+                <button class="btn normal">&#128515;</button>
+                <button class="btn normal">&#128519;</button>
+                <button class="btn normal">&#128532;</button>
+                <button class="btn normal">&#128545;</button>
+            </div>
+
+            <p class="question">Tell us what you think?</p>
+            <textarea name="" id="textarea"></textarea>
+            <p class="question">Do you want to share this feedback publicly?</p>
+            <div class="radio-btns">
+                <div class="one-btn">
+                    <input type="radio" name="one-btn" id="Yes" required>
+                    <label for="Yes">Yes</label>
+                </div>
+                <div class="one-btn">
+                    <input type="radio" name="one-btn" id="No" required>
+                    <label for="No">No</label>
+                </div>
+            </div>
+            <div class="info-field">
+                <div class="name">
+                    <label for="Name">
+                        <span>Name</span>
+                        <input type="text" placeholder="" required>
+                    </label>
+                </div>
+            </div>
+            <div class="info-field">
+                <div class="email">
+                    <div class="name">
+                        <label for="Email">
+                            <span>Email (your email will not be shown)</span>
+                            <input type="email" placeholder="" required>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <button class="btn button" type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
